@@ -6,7 +6,7 @@ string VigenereEncrypt(deque<int> keys, string plaintext);
 string VigenereDecrypt(deque<int> keys, string cypertext);
 
 int main() {
-	string plaintext = "THECOOKIESAREINFRIDGE";
+	string plaintext = "THECOOKIESAREI NFRIDGEZ";
 	deque<int> keys(3);
 	keys[0] = 1;
 	keys[1] = 3;
