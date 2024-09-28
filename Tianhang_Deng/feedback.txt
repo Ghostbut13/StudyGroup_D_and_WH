@@ -1,0 +1,53 @@
+GetReal =? GetDouble
+
+Triangle: good but optimise the ++--
+
+ExtractFirstToken:
+0000000 11111111111111111111
+
+
+OpenFile:
+1. #include <string> ?
+2. question states: "input a reference of ifstream", maybe not the context in the file
+2. question states: "return with the ifstream opend", maybe not the context in the file
+3. a while loop, as state: "reprompt user"
+4. clear() 有问题，我怎么觉得有他没他都可以
+
+
+4.3:
+题目有问题我觉得（即push_back()），所以按照每个人的理解来写了
+
+4.4：待定
+
+4.5：口述重复一遍维吉尼亚密码的操作
+1.可以用单引号‘ 字符’来代替ASCII里的数字
+2.我没考虑Zz的边界情况
+3.你虽然考虑了z但还是漏网之鱼： Z
+3_5.你还考虑了空格，我认为i可以不考虑
+4.确实更应该用reference
+5.我更上一层楼，考虑了解密
+6.deque最好是用front()提取
+
+
+6.2:
+1.完败于我的代码
+2.你可以把vector<int> input调成和我一样的大小：10000000
+然后把display输出结果注释掉。
+对比一下每个人的代码运行时间（不需要clock(）之类的代码严格对比）
+，直接人工计时即可——你的要7秒左右，我的只需要2秒。
+（对了，我写了一个6.2_compare_different_ways_performance.cpp, 似乎就是预见了你的
+笨拙办法，特地严格对比了）
+
+3.对于vector初始化的问题，我和你有一样的疑问
+我认为可以用for循环来初始。值得注意的是，随机vector的初始化：见书41页
+
+
+
+
+6.5： 给了你一份stringTokens.txt文件 （路径，在主目录下的test_file下）
+1.for(int i = 0; i <= 40; ++i)替换成while (true) 
+2. cout << *itr 替换成 cout << *itr << endl;
+3.vector<char>换成vector<string>
+4. 你对token的理解有误，所以才vector<char>
+
+
