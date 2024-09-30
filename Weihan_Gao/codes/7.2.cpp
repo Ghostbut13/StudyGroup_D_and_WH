@@ -15,7 +15,7 @@ int main() {
 
 	//initialize multimap
 	string filename1 = "stringTokens.txt";
-	string filename2 = "7_1.txt";
+	string filename2 = "longer.txt";
 	vector<string> myVector1, myVector2;
 	myVector1 = LoadAllTokens(filename1);
 	myVector2 = LoadAllTokens(filename2); //longer
